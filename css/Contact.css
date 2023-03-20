@@ -1,0 +1,80 @@
+.encabezado{
+    background-color: var(--color3);
+    height: 0.5rem;
+}
+.encabezado a{   
+    display: flex;
+    justify-content: flex-start;
+}
+.encabezado img{
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    height: 0.3rem;
+}
+.C{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+
+}
+.C h1{
+    font-size: 0.3rem;
+}
+.C p{
+    font-size: 0.2rem;
+}
+.C imput{
+    width: 2rem;
+}
+footer{
+    background-color: var(--color2);
+    margin-top: 1rem;
+ 
+}
+.X {
+    height: 0.3rem;
+    display: flex;
+
+    justify-content: space-around;
+}
+.X img{
+    margin-top: 0.1rem;
+    height: 0.4rem;
+}
+.X button{
+    text-decoration: none;
+    border: none;
+    margin-top: 0.05rem;
+    width: 1rem;
+    cursor: pointer;
+    margin-left: 0.1rem;
+   
+    font-size: 0.15rem;
+    color: var(--color1);
+    border-radius: 2rem;
+    background-color: var(--color3);
+    font-family: 'Fredoka One', cursive;
+
+    -webkit-box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
+    -moz-box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
+    box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
+}
+.Z{
+    height: 0.6rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.2rem;
+
+    text-shadow: 4px 1px 10px var(--color1);
+}
+.Z a{
+    text-decoration: none;
+    font-size: 0.13rem;
+    color: var(--color1);
+    margin-top: 0.05rem;
+    margin-left: 0.1rem;
+    font-family: 'Fredoka One', cursive;   
+}
