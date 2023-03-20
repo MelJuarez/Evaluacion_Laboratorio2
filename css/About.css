@@ -73,3 +73,13 @@ footer{
     margin-left: 0.1rem;
     font-family: 'Fredoka One', cursive;   
 }
+.team h1{
+    font-size: 0.35rem;
+}
+.team h5{
+    font-size: 0.15rem;
+}
+.TT img{
+    height: 0.7rem;
+    border-radius: 100%;
+}
