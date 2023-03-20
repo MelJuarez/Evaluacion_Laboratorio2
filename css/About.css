@@ -73,13 +73,51 @@ footer{
     margin-left: 0.1rem;
     font-family: 'Fredoka One', cursive;   
 }
+.team{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
 .team h1{
     font-size: 0.35rem;
 }
 .team h5{
     font-size: 0.15rem;
 }
+.teamm{
+    display: flex;
+    justify-content: space-between;
+
+    height: 1.3rem;
+}
+.a{
+    width: 0.3rem;
+}
+.TT{
+    text-align: center;
+}
 .TT img{
-    height: 0.7rem;
+    height: 0.5rem;
     border-radius: 100%;
+}
+.TT h5{
+    font-size: 0.3rem;
+}
+.TT p{
+     font-size: 0.13rem;
+}
+
+.TTD{
+    text-align: center;
+}
+.TTD img{
+    height: 0.5rem;
+    border-radius: 100%;
+}
+.TTD h5{
+    font-size: 0.25rem;
+}
+.TTD p{
+     font-size: 0.13rem;
 }
