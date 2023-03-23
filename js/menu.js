@@ -2,7 +2,7 @@
 function menu_encabezado(){
 
     let menu = `
-    <a href="./index.html">
+    <a href="./Home.html">
         <img src="./img/menu.png" alt="">   
     </a>
     `;
