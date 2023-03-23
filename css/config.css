@@ -8,6 +8,7 @@ html{
     font-family: 'Fredoka One', cursive;
     font-family: 'Phudu', cursive;
     color: var(--color1);
+    max-width: 375px;
 }
 :root{
     --color1: rgb(41, 36, 49);
