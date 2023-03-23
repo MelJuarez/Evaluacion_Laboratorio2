@@ -55,10 +55,11 @@
     box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
 }
 .Our{
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .Our h1{
     font-family: 'Fredoka One', cursive;
@@ -70,6 +71,10 @@
 footer{
     background-color: var(--color2);
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.2rem;
 }
 .X {
     height: 0.3rem;
@@ -118,11 +123,31 @@ footer{
     font-family: 'Fredoka One', cursive;   
 }
 .H{
-    margin-left: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.H h4{
+    font-size: 0.3rem;
+    color: var(--color2);
+}
+.H p{
+    font-size: 0.15rem;
+    color: var(--color1);
+}
+@media (max-width: 375px){
+
+.Our h1{
+    font-size: 0.25rem;
 }
 .H h4{
     font-size: 0.25rem;
 }
-.H h5{
-    font-size: 0.1rem;
+.H p{
+    font-size: 0.12rem;
+}
+.H img{
+    width: 1.3rem;
+}
 }

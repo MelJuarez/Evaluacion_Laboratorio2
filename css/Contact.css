@@ -1,5 +1,5 @@
 .encabezado{
-    background-color: var(--color3);
+    background-color: var(--color2);
     height: 0.5rem;
 }
 .encabezado a{   
@@ -16,6 +16,7 @@
     flex-direction: column;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
+    margin-top: 0.2rem;
 
 }
 .C h1{
@@ -31,6 +32,10 @@
 footer{
     background-color: var(--color2);
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.2rem;
  
 }
 .X {
@@ -50,6 +55,7 @@ footer{
     width: 1rem;
     cursor: pointer;
     margin-left: 0.1rem;
+    
    
     font-size: 0.15rem;
     color: var(--color1);
@@ -60,6 +66,9 @@ footer{
     -webkit-box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
     -moz-box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
     box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
+}
+.send{
+    margin-top: 0.2rem;
 }
 .Z{
     height: 0.6rem;
@@ -82,18 +91,16 @@ footer{
 .C button{
     text-decoration: none;
     border: none;
-    margin-top: 0.3rem;
     width: 1.5rem;
     cursor: pointer;
-    margin-left: 0.1rem;
     height: 0.4rem;
-   
     font-size: 0.12rem;
     color: var(--color1);
     border-radius: 2rem;
     background-color: var(--color2);
     font-family: 'Fredoka One', cursive;
 
+    
     -webkit-box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
     -moz-box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
     box-shadow: 7px 10px 24px -3px rgba(47,43,51,1);
@@ -104,7 +111,7 @@ footer{
     flex-direction: column;
 }
 .info h5{
-    margin-top: 0.2rem;
+    margin-top: 0.3rem;
     font-size: 0.2rem;
 }
 .places{
@@ -115,8 +122,30 @@ footer{
     height: 0.5rem;
 }
 .places h5{
-    font-size: 0.15rem;
+    font-size: 0.2rem;
 }
 .places p{
-    font-size: 0.1rem;
+    font-size: 0.12rem;
+}
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 375px){
+
+
+.C button{
+
+    width: 1.2rem;
+}
+.C img{
+    margin-top: 0.1rem;
+    width: 1.8rem;
+    height: auto;
+    margin-left: 0.15rem;
+
+}
+
 }

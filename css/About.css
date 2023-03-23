@@ -26,6 +26,10 @@
 footer{
     background-color: var(--color2);
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.2rem;
 }
 .X {
     height: 0.3rem;
@@ -121,3 +125,16 @@ footer{
 .TTD p{
      font-size: 0.13rem;
 }
+@media (max-width: 375px){
+
+
+    .TTD h5{
+        font-size: 0.25rem;
+    }
+    .TT h5{
+        font-size: 0.25rem;
+    }
+    .A{margin-top: 0.2rem;}
+}
+    
+    
